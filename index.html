@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma cafeteria perto da sua casa com cheirinho de café feito pela sua vó">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coffee Shops</title>
+</head>
+
+
+<body>
+
+    <!-- header - menu -->
+
+    <header>
+        <div class="center_header">
+            <img class="logo-header" src="./assets/LOGO 1.png" alt="logo Coffee Shops Tia Rosa">
+
+            <div class="menu-nav">
+                <nav class="menu">
+                    <a href="#topo">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#cardápio">Cardápio</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+
+                <nav>
+                    <img class="carrinho-de-compras" src="./assets/carrinho-de-compras.png" alt="compras loja">
+                    <img class="pesquisa" src="./assets/lupa.png" alt="buscar">
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!--1ª dobra banner-->
+
+        <section id="topo" class="banner">
+
+            <div class="chamada">
+                <h1> <span>TIME FOR A <br></span>COFFEE</h1>
+                <button class="button-banner">Saiba Mais</button>
+            </div>
+
+        </section>
+
+        <!--2ª dobra sobre nós-->
+
+        <section id="sobre" class="container_sobre-nós">
+
+            <h2 class="h2-sobre">SOBRE <span>NÓS</span></h2>
+
+            <div class="div-sobre-nós_img_p">
+                <img class="banner-2" src="./assets/moça-cafeteria.jpg" alt="moça servindo café">
+                <p class="paragrafo-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                    <br> <br> Donec ultrices tincidunt arcu non. Condimentum vitae sapien pellentesque habitant morbi
+                    tristique
+                    senectus et. Quis blandit turpis cursus in hac habitasse. Condimentum id venenatis a condimentum
+                    vitae sapien pellentesque habitant morbi.
+                </p>
+            </div>
+
+        </section>
+
+
+
+        <!--3ª dobra menu-->
+
+        <section id="cardápio" class="container_menu">
+
+            <h2 class="head-menu"><span>CARDÁPIO</span></h2>
+
+
+            <div class="col-left-menu">
+
+                <div class="bottons_menu">
+
+                    <button class="button_menu" id="buttonCoffeAndTea" onclick="changeMenu('coffeAndTea')">Cafés e
+                        Chás</button>
+                    <button class="button_menu" id="buttonFoods" onclick="changeMenu('foods')">Comidinhas</button>
+                    <button class="button_menu" id="buttonDrinks" onclick="changeMenu('drinks')">Outras bebidas</button>
+                </div>
+
+                <div class="Cafes_Chas" id="coffeAndTea">
+
+                    <div class="nome_valor">
+
+                        <div class="itens">
+                            <h3>Café Expresso</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Mocaccino</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Cappuccino</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Café com Leite</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Chá Gelado</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <div class="foods" id="foods">
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Tapioca</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Misto Quente</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Croissant</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Cuscuz</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Bolo</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="drinks" id="drinks">
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Água</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$3</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Refrigerante</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                    <div class="nome_valor">
+                        <div class="itens">
+                            <h3>Suco Natural</h3>
+                            <p class="descrições">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <p>$10</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!--4ª dobra contato-->
+
+        <div id="contato" class="container_contato">
+
+            <h2 class="h2-contato">ENTRE EM <span> CONTATO</span></h2>
+
+
+
+            <section class="contact-info">
+
+                <div class="contato_right">
+
+                    <form>
+                        <div class="contatos">
+
+                            <div class="contato_name">
+                                <label for="name">Nome</label>
+                                <input class="campo_nome" type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="contato_tel">
+                                <label for="phone">Telefone</label>
+                                <input class="campo_telefone" type="tel" id="phone" name="phone"
+                                    pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="contato_email">
+                            <label for="email">E-mail</label>
+                            <input class="campo_email" type="email" id="email" name="e-mail" required>
+                        </div>
+
+                        <label for="message">Mensagem</label> <textarea class="campo_mensagem" id="message"
+                            name="message" required></textarea>
+
+                        <input class="button_form" type="submit" name="submit"></input>
+                    </form>
+
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!--5ª dobra footer-->
+
+    <footer class="footer">
+
+        <div class="center_footer">
+
+            <div class="left-block">
+
+                <div class="endereço">
+                    <p class="nossas_lojas">Nossas Lojas</p>
+                    <p class="loja">Endereço 1 completo aqui</p>
+                    <p class="loja">Endereço 2 completo aqui</p>
+                </div>
+
+                <div class="telefone">
+                    <p class="nossas_lojas">Contatos</p>
+                    <p class="phone"> (61) 9 9999-9999</p>
+                    <p class="phone"> (61) 9 9999-9999</p>
+                </div>
+
+            </div>
+
+            <section>
+                <div class="redes_sociais">
+                    <img class="logo_redes_sociais" src="./assets/instagram.png" alt="instagram">
+                    <img class="logo_redes_sociais" src="./assets/facebook.png" alt="facebook">
+                    <img class="logo_redes_sociais" src="./assets/tiktok.png" alt="tiktok">
+                </div>
+            </section>
+        </div>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

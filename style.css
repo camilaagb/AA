@@ -258,8 +258,8 @@ h3 {
 
 .container_contato {
 
-    border: 5px solid fuchsia;
-    
+    /* border: 5px solid fuchsia; */
+
 
 }
 
@@ -273,7 +273,7 @@ h3 {
 .contact-info {
     display: flex;
     padding: 60px;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     align-items: center;
     justify-content: center;
 
@@ -286,7 +286,7 @@ h3 {
     width: 100%;
     align-items: center;
     justify-content: center;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     font-size: 18px;
 
 
@@ -295,7 +295,7 @@ h3 {
 .contatos {
     display: flex;
     margin-bottom: 20px;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     justify-content: space-between;
     align-items: center;
 }
@@ -368,7 +368,7 @@ input {
 
 .button_menu:active {
     opacity: 0.5;
-    
+
 
 }
 
@@ -472,3 +472,284 @@ input {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resposivo */
+
+@media screen and (max-width: 400px) {
+
+    * {
+        box-sizing:content-box;
+        
+    }
+    
+    /* Header */
+
+
+    .center_header {
+        /* width: 90vw;
+        height: 130px; */
+        margin: auto;
+        display: flex;
+    }
+
+    .logo-header {
+        height: 8vh;
+        top: 31px;
+        margin-left: 30px;
+    }
+
+    .menu-nav {}
+
+    nav {
+        display: none;
+        /* flex-direction: row;
+        cursor: pointer; */
+    }
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .carrinho-de-compras {
+        display: none;
+    }
+
+    .pesquisa {
+        display: none;
+    }
+
+    /* dobra 1 - banner*/
+
+    .banner {
+
+        background-size: 100%;
+        height: 262px;
+        display: flex;
+        align-items: flex-end;
+
+    }
+
+    .chamada {
+        height: 60%;
+        margin: 0 auto 0 60px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .button-banner {
+        width: 128px;
+        height: 39px;
+        margin-top: 10px;
+
+        font-size: 18px;
+    }
+
+    /* dobra 2 - sobre nós */
+
+    .h2-sobre {
+        font-size: 32px;
+        margin: 20px 0 30px 0;
+
+    }
+
+    .div-sobre-nós_img_p {
+        display: flex;
+        flex-direction: column;
+        margin: 0px, 0 0px, 0;
+        padding: 0px;
+    }
+
+    .banner-2 {
+        /* max-width: 50%; */
+        margin: 0 0 30px 0;
+
+    }
+
+    .paragrafo-sobre {
+        width: 70%;
+        font-size: 18px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align:center;
+    }
+
+
+    /* dobra 3 - menu */
+
+    .container_menu {
+        margin-right: 0;
+    }
+
+    .col-left-menu {
+        margin: 0;
+
+    }
+
+
+    .head-menu {
+        display: inline-block;
+        top: 20px;
+        left: 0;
+        font-size: 32px;
+        margin: 0;
+    }
+
+
+    .button_menu {
+        width: 70px;
+        height: 44px;
+        margin-top: 75px;
+        margin-right: 10px;
+        font-size: 12px;
+        border-color: transparent;
+
+    }
+
+    .Cafes_Chas {
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+
+    .foods {
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+
+    .drinks {
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+
+    .itens {
+        margin-right: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+
+
+    h3 {
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 10px;
+
+    }
+
+    .descrições {
+        display: none;
+    }
+
+
+
+/* 4ª dobra - contato */
+
+
+.h2-contato {
+    font-size: 32px;
+    margin: 20px 0 20px 0;
+}
+
+.contact-info {
+    padding: 0px;
+}
+
+
+
+/* .contato_right {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+} */
+
+.contatos {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 0.8rem;
+    margin: 5px 0 0 0px;
+
+}
+
+input {
+    /* width: 30rem; */
+    height: 2.5rem;
+    display: block;
+    width: 100%;
+}
+
+.button_form {
+    width: 40%;
+    margin: 20px 0 20px 0;
+    font-size: 16px;
+}
+
+
+    /* 5ª dobra - footer */
+
+
+
+    .left-block {
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+
+    .endereço {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .nossas_lojas {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .loja {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+    .telefone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+
+
+}

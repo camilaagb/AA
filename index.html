@@ -20,22 +20,48 @@
 
     <header>
         <div class="center_header">
-            <img class="logo-header" src="./assets/LOGO 1.png" alt="logo Coffee Shops Tia Rosa">
+            <div class="logo">
+                <img class="logo-header" src="./assets/LOGO 1.png" alt="logo Coffee Shops Tia Rosa">
+            </div>
 
             <div class="menu-nav">
-                <nav class="menu">
-                    <a href="#topo">Início</a>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#cardápio">Cardápio</a>
-                    <a href="#contato">Contato</a>
-                </nav>
+                <ul class="menu">
+                    <li class="nav-navegaçao"><a class="nav-a" href="#topo">Início</a></li>
+                    <li class="nav-navegaçao"><a class="nav-a" href="#sobre">Sobre</a></li>
+                    <li class="nav-navegaçao"><a class="nav-a" href="#cardápio">Cardápio</a></li>
+                    <li class="nav-navegaçao"><a class="nav-a" href="#contato">Contato</a></li>
+                </ul>
 
                 <nav>
                     <img class="carrinho-de-compras" src="./assets/carrinho-de-compras.png" alt="compras loja">
                     <img class="pesquisa" src="./assets/lupa.png" alt="buscar">
                 </nav>
             </div>
+
+
+            <!-- menu mobile -->
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()">
+                    <img class="icon" src="./assets/icons8-cardápio-60.svg" alt="menu-hamburguer">
+                </button>
+            </div>
+
+
         </div>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-navegaçao"><a class="nav-a" href="#topo">Início</a></li>
+                <li class="nav-navegaçao"><a class="nav-a" href="#sobre">Sobre</a></li>
+                <li class="nav-navegaçao"><a class="nav-a" href="#cardápio">Cardápio</a></li>
+                <li class="nav-navegaçao"><a class="nav-a" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+
+        <!-- menu mobile -->
+
+
     </header>
 
     <main>
@@ -285,7 +311,7 @@
                                     pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required>
                             </div>
 
-                            
+
                         </div>
 
                         <div class="contato_email">

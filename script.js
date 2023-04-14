@@ -16,6 +16,7 @@ function changeMenu(type){
             // $('#drinks').hide();
 
             // JAVASCRIPT
+
             const coffeAndTeaElem = document.getElementById("coffeAndTea");
             coffeAndTeaElem.classList.remove('hide_menu');
             coffeAndTeaElem.classList.add('show_menu');
@@ -121,4 +122,27 @@ function changeMenu(type){
             break;
     }
 
+}
+
+
+
+
+// menu mobile
+
+
+function menuShow() {
+
+    let menuMobile = document.querySelector('.mobile-menu');
+
+    if (menuMobile.classList.contains('open')){
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src="./assets/icons8-cardápio-60.svg";
+        console.log("fechado")
+    }
+
+    else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src="./assets/x.svg";
+        console.log("aberto")
+    }
 }

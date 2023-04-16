@@ -43,9 +43,6 @@ function changeMenu(type){
 
             
             
-
-
-            console.log("CHEGUEI AQUI COFFE AND TEA");
             break;
         case 'foods':
 
@@ -81,7 +78,6 @@ function changeMenu(type){
             
 
 
-            console.log("CHEGUEI AQUI FOODS");
             break;
         case 'drinks':
 
@@ -114,12 +110,6 @@ function changeMenu(type){
             const buttonFoods2 = document.getElementById("buttonFoods");
             buttonFoods2.classList.remove('button_active');
 
-
-            console.log("CHEGUEI AQUI DRINKS");
-            break;
-        default:
-            console.log("CHEGUEI NO DEFAULT");
-            break;
     }
 
 }
@@ -137,12 +127,10 @@ function menuShow() {
     if (menuMobile.classList.contains('open')){
         menuMobile.classList.remove('open');
         document.querySelector('.icon').src="./assets/icons8-cardápio-60.svg";
-        console.log("fechado")
     }
 
     else {
         menuMobile.classList.add('open');
         document.querySelector('.icon').src="./assets/x.svg";
-        console.log("aberto")
     }
 }

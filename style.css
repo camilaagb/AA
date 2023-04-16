@@ -7,11 +7,6 @@
 
 header {
     background: #000000;
-    /* opacity: 0.9;
-    z-index: 5;
-    position: fixed;
-    top: 0;
-    width: 100%; */
 }
 
 .center_header {
@@ -29,7 +24,6 @@ header {
 .menu-nav {
     display: flex;
     align-items: center;
-    /* list-style: none; */
 }
 
 .menu {
@@ -66,15 +60,6 @@ a:active {
     opacity: 0.5;
 }
 
-/* .carrinho-de-compras {
-     width: 24px;
-    height: 24px;
-} */
-
-/* .carrinho-de-compras:hover {
-    filter:opacity(80%)
-} */
-
 .pesquisa {
     width: 24px;
     justify-content: flex-end;
@@ -102,7 +87,6 @@ a:active {
 .banner {
     background-image: url(./assets/banner.png);
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-size: 100%;
     height: 420px;
     display: flex;
@@ -191,6 +175,7 @@ span {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .col-left-menu {
@@ -217,8 +202,6 @@ span {
     border-color: #FACA36;
     margin: 150px 0px 0 0;
     margin-right: 30px;
-
-
 
     color: #FACA36;
     font-size: 18px;
@@ -306,8 +289,6 @@ h3 {
     flex-direction: column;
     width: 100%;
     font-size: 18px;
-
-
 }
 
 .contatos {
@@ -334,7 +315,6 @@ label {
 
 
 input {
-    /* width: 30rem; */
     height: 2.5rem;
     display: block;
     width: 100%;
@@ -406,7 +386,6 @@ input {
     color: #FFFFFF;
     flex-direction: row;
     margin-bottom: 50px;
-
 }
 
 .endereço {
@@ -478,7 +457,6 @@ input {
 
     * {
         box-sizing: content-box;
-
     }
     
     /* Header */
@@ -596,7 +574,6 @@ input {
     }
 
     .banner-2 {
-        /* max-width: 50%; */
         margin: 0 0 30px 0;
 
     }
@@ -667,13 +644,11 @@ input {
     h3 {
         font-size: 14px;
         margin-bottom: 10px;
-
     }
 
     .descrições {
         display: none;
     }
-
 
 
     /* 4ª dobra - contato */
@@ -684,20 +659,12 @@ input {
     }
     
     .contact-info {
-        /* flex-direction: column; */
-        /* padding: 60px; */
         width: 100%;
-        /* align-items: center;
-        justify-content: center; */
         font-size: 14px;
         padding: 0;
     }
     
     .contatos {
-        /* display: block; */
-        /* flex-direction: column; */
-
-        /* justify-content: space-between; */
         width: 100%;
         margin-bottom: 10px;
     }
@@ -762,9 +729,4 @@ input {
         font-size: 15px;
         font-weight: 300;
     }
-
-
-
-
-
 }

@@ -18,7 +18,7 @@ header {
 
 .logo-header {
     align-items: center;
-    height: 50px;
+    height: 70px;
 }
 
 .menu-nav {
@@ -88,7 +88,7 @@ a:active {
     background-image: url(./assets/banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 420px;
+    height: 400px;
     display: flex;
     align-items: flex-end;
 
@@ -729,4 +729,13 @@ input {
         font-size: 15px;
         font-weight: 300;
     }
+<<<<<<< HEAD
 }
+=======
+
+
+
+
+
+}
+>>>>>>> b125a0a7ccdb043924fe37932b88883a4cf0a4ee
